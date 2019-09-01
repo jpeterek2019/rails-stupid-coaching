@@ -1,0 +1,23 @@
+$gray: #F4F4F4;
+$yellow: #FFE9A3;
+
+body {
+  background: $gray; // Using this variable
+}
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+.border {
+  border-left: 5px solid grey;
+  padding: 5px;
+
+}
+
+.square {
+  background: $yellow;
+}

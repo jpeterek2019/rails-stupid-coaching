@@ -1,0 +1,15 @@
+<h1>Coaching</h1>
+
+
+<div class='border'>
+  <p><%= params[:ask] %></p>
+  <p> - You - </p>
+</div>
+<p></p>
+<div class='border square'>
+  <p><%= @answer %></p>
+  <p> - Your Coach -  </p>
+</div>
+<p></p>
+
+<%= link_to "Ask a new question", ask_path%>
